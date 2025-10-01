@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Y Durga Priya Sunaya sree - CV Details</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        /* Re-use the existing styles for consistency */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --secondary-gradient: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            --accent-gradient: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            --dark-gradient: linear-gradient(135deg, #0c0c0c 0%, #1a1a1a 100%);
+            --glass-bg: rgba(255, 255, 255, 0.1);
+            --glass-border: rgba(255, 255, 255, 0.2);
+            --text-light: #ffffff;
+            --text-dark: #333333;
+            --shadow-glow: 0 0 40px rgba(102, 126, 234, 0.4);
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            color: var(--text-light);
+            background: #0a0a0a;
+            overflow-x: hidden;
+            scroll-behavior: smooth;
+            padding-top: 5rem; /* Add padding to prevent content from hiding under sticky header if you add one */
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 3rem;
+            font-weight: 800;
+            margin-bottom: 4rem;
+            color: var(--text-light);
+            position: relative;
+            background: var(--primary-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 4px;
+            background: var(--primary-gradient);
+            border-radius: 2px;
+        }
+
+        .cv-section {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 2.5rem;
+            margin-bottom: 3rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cv-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: var(--primary-gradient);
+        }
+
+        .cv-section h2 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            color: var(--text-light);
+            background: var(--accent-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .cv-section ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .cv-section ul li {
+            margin-bottom: 1rem;
+            padding-left: 1.5rem;
+            position: relative;
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 1.1rem;
+        }
+
+        .cv-section ul li::before {
+            content: '•'; /* Or any other bullet point */
+            position: absolute;
+            left: 0;
+            color: #667eea;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        .cv-section strong {
+            color: var(--text-light);
+        }
+
+        .back-button {
+            display: inline-block;
+            margin-top: 2rem;
+            padding: 12px 25px;
+            background: var(--primary-gradient);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+        }
+
+        .back-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 30px rgba(102, 126, 234, 0.4);
+        }
+
+        /* Responsive adjustments for cv-details page */
+        @media (max-width: 768px) {
+            .section-title {
+                font-size: 2.5rem;
+            }
+            .cv-section {
+                padding: 1.5rem;
+            }
+            .cv-section h2 {
+                font-size: 1.7rem;
+            }
+            .cv-section ul li {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="section-title">Y Durga Priya's CV Details</h1>
+
+        <div class="cv-section">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>Shri Vishnu Engineering College for Women, Bhimavaram, Andhra Pradesh</strong>
+                    <br>B.Tech in CSE, CGPA: 9.12 (up to 3rd year)
+                    <br>2022-2026</li>
+                <li><strong>IIT Madras, TamilNadu (Online)</strong>
+                    <br>BS in Data Science and Applications (2nd Year)
+                    <br>Ongoing</li>
+                <li><strong>Career Point Jr. College, Rajamahendravaram, Andhra Pradesh</strong>
+                    <br>Intermediate (MPC) - 95.3%
+                    <br>2022</li>
+                <li><strong>Sri Gowthami Smart School, Rajamahendravaram, Andhra Pradesh</strong>
+                    <br>10th GPA: 10/10
+                    <br>2020</li>
+            </ul>
+        </div>
+
+        <div class="cv-section">
+            <h2>Certifications</h2>
+            <ul>
+                <li>Programming and Data Science (BS Foundation) IIT Madras (2024)</li>
+                <li>Cyber Security Coursera (2024)</li>
+                <li>Demystifying Networking - IIT Bombay (2024)</li>
+                <li>Machine Learning IBM (2023)</li>
+                <li>Japanese Language GLS (2023)</li>
+            </ul>
+        </div>
+
+        <div class="cv-section">
+            <h2>Projects & Internships</h2>
+            <ul>
+                <li><strong>Remote Intern</strong>
+                    <br>Worked on development of applications using DS and AI at TERZO</li>
+                <li><strong>Voice-based Digital Payments IIIT Kurnool</strong>
+                    <br>Voice-driven UPI payment interface.</li>
+                <li><strong>Tweet Analyzer</strong>
+                    <br>Sentiment analysis of tweets using NLP</li>
+                <li><strong>Bibliobuddy</strong>
+                    <br>Book recommendation system.</li>
+                <li><strong>Medicine Search Tool</strong>
+                    <br>For Vishnu Pharmacy stock management.</li>
+                <li><strong>Soil Testing Kit + Presentation</strong>
+                    <br>25th National Children's Science Congress.</li>
+                <li><strong>TT Game (Scratch)</strong>
+                    <br>Table tennis game using Scratch.</li>
+            </ul>
+        </div>
+
+        <div class="cv-section">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li><strong>Languages:</strong> Java, Python, C, R</li>
+                <li><strong>Web Dev:</strong> HTML, CSS, JS, React, Node.js</li>
+                <li><strong>DBMS:</strong> MySQL, MongoDB</li>
+                <li><strong>Tools:</strong> VS Code, Jupyter, GitHub</li>
+                <li><strong>Other:</strong> Linux, Tableau</li>
+                <li><strong>Languages Known:</strong> English, Hindi, Telugu, Japanese (Basic)</li>
+            </ul>
+        </div>
+
+        <div class="cv-section">
+            <h2>Achievements</h2>
+            <ul>
+                <li>Flipkart Girls Wanna Code 6.0 Scholar - 2025</li>
+                <li>Limca Book of Record (Relay Speech) - 2023</li>
+                <li>Topper National Math Talent Search - 2019</li>
+                <li>State 45th Rank, State Talent Search Exam - 2019</li>
+                <li>National 1st, Gandhi Peace Essay Writing - 2017</li>
+                <li>Silver Medal, National Science Congress - 2017</li>
+                <li>State 9th, Little Champs Olympiad - 2015</li>
+            </ul>
+        </div>
+
+        <div class="cv-section">
+            <h2>Strengths</h2>
+            <ul>
+                <li>Hard-working, adaptive, team-oriented, strong time management.</li>
+            </ul>
+        </div>
+
+        <div class="cv-section">
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Classical singing, reading comics, watching movies, listening to music.</li>
+            </ul>
+        </div>
+
+        <div style="text-align: center;">
+            <a href="index.html" class="back-button">Back to Portfolio</a>
+        </div>
+    </div>
+</body>
+</html>
